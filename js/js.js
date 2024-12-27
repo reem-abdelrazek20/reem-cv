@@ -18,7 +18,18 @@ let key=el.getAttribute('data-serch');
         } else {card.classList.add("d-none")
             
         }
-        
+          let position = -300
+        let opacity=0
+        const fadeIn = setInterval(() => {
+            if (opacity < 1) {
+              opacity += 0.05; // زيادة الشفافية تدريجيًا
+              card.style.opacity = opacity;
+              position += 15; // تحريك النص باتجاه اليمين
+            card.style.left = `${position}px`;
+            } else {
+              clearInterval(fadeIn); // إنهاء التحريك
+            }
+          }, 30);
        })
   
     })
