@@ -16,6 +16,11 @@ body{    background-color: #444444;}
           display: flex;
           justify-content: center;
  } 
+ .header  .img{
+
+  width: 200px;
+ 
+}
 .header div img{
     border-radius: 50%;
     width: 40%;
