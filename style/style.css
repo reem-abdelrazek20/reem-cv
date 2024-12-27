@@ -49,11 +49,26 @@ body{    background-color: #444444;}
    height:100vh ;
 }
 
-.page  .home{
+.page  .home .textone{
   height: 100vh;
 }
-.page  .home img{
-  width: 50px;
+.page  .home .icon-home{
+
+    justify-content: space-evenly;
+    margin-top: 38px;
+    font-size: 30px;
+
+}
+.page  .home .icon-home i{
+  background-color: #121111;
+  width: 86px;
+  border-radius: 50%;
+  padding: 20px;
+  color: aliceblue;
+}
+.page  .home .icon-home i:hover{
+  background-color: #11aed6;
+ 
 }
 .page  .h{
     padding: 10px;
