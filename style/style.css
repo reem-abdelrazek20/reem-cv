@@ -53,7 +53,10 @@ body{    background-color: #444444;}
     padding: 20px;
    height:100vh ;
 }
-
+.page  .aboutme,.home,.Resume,.Contactus,.Portfolio{
+  position: relative;
+opacity: 0;
+}
 .page  .home .textone{
   height: 100vh;
 }
